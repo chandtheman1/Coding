@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Courier;
+    font-size: 30px;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(154,212,249);
+    color: #ffffff;
+    justify-content: flex-end;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+header nav {
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+
+
+.avatar {
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/starting\ wallpaper2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#subtitle {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-content:flex-end;
+    font-size: 2rem;
+    color:#ffffff;
+}
+
+h2 {
+    font-size: 3rem;
+    display: inline;
+    border-right: solid;
+    padding: 5px;
+    text-align: right;
+    font-family: courier;
+}
+
+.content {
+    padding-left: 200px;
+    padding-right: 50px;
+}
+
+.About-Me {
+    display: flex;
+    padding: 10px;
+}
+
+p {
+    display: inline;
+    font-family: Courier;
+    padding: 10px;
+}
+
+.work {
+    display: flex;
+
+}
+
+#brennan-it {
+    background-image: url(../images/brennanit3.jpg);
+    height: 200px;
+    width: 30%;
+    position: relative;
+    left: 400px;
+   
+
+}
+
+#led-wall {
+    
+   
+}
+
+#calculator {
+
+}
+
+#carmans-kitchens {
+
+}
+
+#run-buddy {
+
+}
